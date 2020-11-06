@@ -1,0 +1,123 @@
+.chat{
+
+    display: flex;
+    flex-direction:column;
+    flex:0.65;
+    height:100vh;
+    background-color: white;
+}
+
+.chat__header{
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    background-color: #f5f5f5;
+}
+.chat__header > h4{
+    font-weight: 500;
+    color:gray;
+}
+.chat__name{
+    color:black;
+}
+.chat__input{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid lightgray;
+    background-color: #f5f5f5;
+}
+.chat__input > form{
+    flex:1;
+}
+
+.chat__input > form > input {
+    width:98%;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    padding:5px;
+    outline-width: 0;
+
+}
+
+.chat__input > form > button{
+    display: none;
+}
+.chat__messages{
+    flex:1;
+    overflow: scroll;
+
+}
+.chat__messages::-webkit-scrollbar{
+    display: none;
+}
+.chat__button > button {
+    width: 90px;
+    background-color: gainsboro;
+    color:#3ea4fb ;
+    font-weight: 200;
+}
+.chat__button > button:hover{
+    background-color: #3ea4fb;
+    color: #eff2f5;
+}
+
+/* dropdown */
+.dropbtn {
+    color: gray;
+    background-color: rgba(7, 148, 7, 0.981);
+    color: white;
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+      color: gray;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    color: gray;
+    background-color: whitesmoke;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: medium;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: gray;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+    display: block;
+    font-size: small;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    color: gray;
+    font-size: medium;
+    text-emphasis: bold;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+      color: gray;
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: rgba(7, 148, 7, 0.981);
+  }
+
+
+/* dropdown */

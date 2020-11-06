@@ -1,0 +1,57 @@
+.login{
+
+    display: grid;
+    place-items: center;
+    height:90vh;
+
+}
+.login__logo__img > img{
+
+    object-fit: contain;
+    padding: 50px;;
+
+    height: 200px;
+
+} 
+
+.login > button {
+    width: 300px;
+    background-color: #3ea4fb;
+    color: #eff2f5;
+    font-weight: 500;
+}
+.login > button:hover{
+    background-color: gainsboro;
+    color: #3ea4fb;
+}
+.login__logo__img{
+    display: flex;
+    justify-content: space-between;
+
+}
+.login__icon{
+    display:flex;
+}
+.login__icon > div{
+    padding: 10px;
+
+}
+
+
+.login_text > p {
+    color:gray;
+    width: 100;
+    padding-left: 160px;
+    padding-right: 100px;
+    font-weight: 700;
+    font-size: large;
+    font-style: normal;
+  }
+  .login_text {
+    margin-top: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-items: center;
+  }
